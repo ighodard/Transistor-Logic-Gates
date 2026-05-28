@@ -20,6 +20,9 @@ This gate requires two transistors; this gate will only output high if both inpu
 # Code for AND Gate
 [AND Gate Code](AND_GATE.ino)
 
+# Demo for AND Gate
+[AND Gate Demo Video](https://youtube.com/shorts/YErGVFN6hGg?si=8YeepXTUk0qU_tc1)
+
 # OR Gate
 Similar to the AND gate, this gate needs two transistors; this time, placed in parallel to each other. Unlike the AND gate, the OR gate outputs high when at least one of the input signals is high. In this circuitry. This works since the parallel connections provide separate paths for the current to flow.
 
@@ -27,6 +30,9 @@ Similar to the AND gate, this gate needs two transistors; this time, placed in p
 
 # Code for OR Gate
 [OR Gate Code](OR_GATE.ino)
+
+# Demo for OR Gate
+[OR Gate Demo Video](https://youtube.com/shorts/au-O7nDR0IY?si=40i91kdoC_72VvdB)
 
 # Component List
 1. 2 NPN transistors
