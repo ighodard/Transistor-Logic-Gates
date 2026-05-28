@@ -35,7 +35,17 @@ Similar to the AND gate, this gate needs two transistors; this time, placed in p
 4. ELEGOO Uno Microcontroller
 5. Potentiometer
 6. C++ based Arduino IDE
+7. LED for the output
 
 # Usage
+Assemble the circuits above, while double-checking every step. Ensure that 5V is never connected directly to ground. Upload the respective programs for each circuit using the Arduino IDE. Watch the truth table on the LCD screen.
+
+# Common Issues
+1. Mixing up the emitter and the collector, as it changed depending on the specific model
+2. Using a resistor with a small resistance for the base current input
+3. Loose wires
+4. Common ground being disconnected
+
+
 
 
