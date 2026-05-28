@@ -10,7 +10,7 @@ The first gate is the NOT gate (inverter), which outputs a low signal when it ta
 ![Wiring Diagram](not_gate.png)
 
 # Code for NOT Gate
-
+[NOT Gate Code](NOT_GATE.ino)
 
 # AND Gate
 This gate requires two transistors; this gate will only output high if both input signals are high. This was constructed by placing two transistors in series, with each this entailed connecting the emitter of the first transistor to the collector of the second, and the second emitter was then connected to ground. This circuit works because there is only one path to flow, hence both input signals need to be high for the circuit to be complete.
@@ -18,6 +18,7 @@ This gate requires two transistors; this gate will only output high if both inpu
 ![Wiring Diagram](and_gate.png)
 
 # Code for AND Gate
+[AND Gate Code](AND_GATE.ino)
 
 # OR Gate
 Similar to the AND gate, this gate needs two transistors; this time, placed in parallel to each other. Unlike the AND gate, the OR gate outputs high when at least one of the input signals is high. In this circuitry. This works since the parallel connections provide separate paths for the current to flow.
@@ -25,4 +26,16 @@ Similar to the AND gate, this gate needs two transistors; this time, placed in p
 ![Wiring Diagram](or_gate.png)
 
 # Code for OR Gate
+[OR Gate Code](OR_GATE.ino)
+
+# Component List
+1. 2 NPN transistors
+2. 1000, 10000, and 200 ohm resistors
+3. LCD Screen
+4. ELEGOO Uno Microcontroller
+5. Potentiometer
+6. C++ based Arduino IDE
+
+# Usage
+
 
