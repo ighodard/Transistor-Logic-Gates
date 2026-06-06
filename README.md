@@ -13,7 +13,7 @@ The first gate is the NOT gate (inverter), which outputs a low signal when it ta
 [NOT Gate Code](NOT_GATE.ino)
 
 # AND Gate
-This gate requires two transistors; this gate will only output high if both input signals are high. This was constructed by placing two transistors in series, with each this entailed connecting the emitter of the first transistor to the collector of the second, and the second emitter was then connected to ground. This circuit works because there is only one path to flow, hence both input signals need to be high for the circuit to be complete.
+This gate requires two transistors; this gate will only output high if both input signals are high. This was constructed by placing two transistors in series, this entailed connecting the emitter of the first transistor to the collector of the second, and the second emitter was then connected to ground. This circuit works because there is only one path to flow, hence both input signals need to be high for the circuit to be complete.
 
 ![Wiring Diagram](and_gate.png)
 
@@ -24,7 +24,7 @@ This gate requires two transistors; this gate will only output high if both inpu
 [AND Gate Demo Video](https://youtube.com/shorts/YErGVFN6hGg?si=8YeepXTUk0qU_tc1)
 
 # OR Gate
-Similar to the AND gate, this gate needs two transistors; this time, placed in parallel to each other. Unlike the AND gate, the OR gate outputs high when at least one of the input signals is high. In this circuitry. This works since the parallel connections provide separate paths for the current to flow.
+Similar to the AND gate, this gate needs two transistors; this time, placed in parallel to each other. Unlike the AND gate, the OR gate outputs high when at least one of the input signals is high. This works since the parallel connections provide separate paths for the current to flow.
 
 ![Wiring Diagram](or_gate.png)
 
